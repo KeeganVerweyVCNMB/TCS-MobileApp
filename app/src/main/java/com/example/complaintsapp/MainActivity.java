@@ -20,6 +20,6 @@ public class MainActivity extends AppCompatActivity {
         webview.getSettings().setJavaScriptEnabled(true);
         webview.getSettings().setDomStorageEnabled(true);
         webview.setOverScrollMode(WebView.OVER_SCROLL_NEVER);
-        webview.loadUrl("https://complaintssystem.azurewebsites.net/");
+        webview.loadUrl("https://westwardho.azurewebsites.net/");
     }
 }
